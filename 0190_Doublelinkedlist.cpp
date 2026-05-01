@@ -222,3 +222,17 @@ int main()
 {
     DoubleLinkedList list;
     char choice;
+
+       do
+    {
+        cout << "\nMenu\n";
+        cout << "1. Add Record\n";
+        cout << "2. Delete Record\n";
+        cout << "3. Traverse ascending\n";
+        cout << "4. Traverse descending\n";
+        cout << "5. Search record\n";
+        cout << "6. Exit\n";
+        cout << "Enter your choice: ";
+
+        cin >> choice;
+
