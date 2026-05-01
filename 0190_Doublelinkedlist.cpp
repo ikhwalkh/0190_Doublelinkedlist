@@ -59,3 +59,16 @@ public:
             START = newnode;
             return;
         }
+
+         // Step 7: Advance position for insertion
+        Node *current = START;
+        while (current->next != NULL && current->next->no < nim)
+        {
+            current = current->next;
+        }
+
+        if (current->next != NULL && nim == current->next->no)
+        {
+            cout << "\nDuplicate roll numbers not allowed" << endl;
+            return;
+        }
