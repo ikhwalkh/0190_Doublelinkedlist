@@ -83,3 +83,17 @@ public:
 
         current->next = newnode;      // Step 12
     }
+
+     void deleteNode()
+    {
+        if (START == NULL)
+        {
+            cout << "\nList is empty" << endl;
+            return;
+        }
+
+        int rollNo;
+        cout << "Enter the roll number of the student whose record is to be deleted: ";
+        cin >> rollNo;
+
+        Node *current = START;
