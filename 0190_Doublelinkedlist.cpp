@@ -245,3 +245,11 @@ int main()
         case '2':
             list.deleteNode();
             break;
+
+        case '3':
+            list.traverse();
+            break;
+
+        case '4':
+            list.revtraverse();
+            break;
