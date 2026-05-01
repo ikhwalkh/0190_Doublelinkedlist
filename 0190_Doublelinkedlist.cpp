@@ -236,3 +236,12 @@ int main()
 
         cin >> choice;
 
+         switch (choice)
+        {
+        case '1':
+            list.addNode();
+            break;
+
+        case '2':
+            list.deleteNode();
+            break;
